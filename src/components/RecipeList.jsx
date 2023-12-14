@@ -18,5 +18,5 @@ RecipeList.propTypes = {
     .isRequired,
 };
 
-/* items - это пропсы Компонента RecipeList */
+/* items - это пропсы Компонента <RecipeList items={recipes} /> */
 /* ключ даём верхнему элементу (li) */

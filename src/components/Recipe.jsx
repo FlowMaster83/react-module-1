@@ -1,9 +1,18 @@
-// Компонент 1 рецепта
 import PropTypes from 'prop-types';
 
+// https://react-icons.github.io/react-icons/
 import { IoMdTime } from 'react-icons/io';
 import { FaPeopleRoof } from 'react-icons/fa6';
 import { MdFoodBank } from 'react-icons/md';
+
+/*
+
+1. Компонент каждого рецепта: функция с экспортом
+2. деструктуризация item + глубокая вложенностей
+3. верстка с компонентами иконок
+4. проптайпы
+
+*/
 
 export const Recipe = ({ item: { name, image, time, servings, calories } }) => {
   return (
@@ -49,5 +58,3 @@ Recipe.propTypes = {
     difficulty: PropTypes.oneOf(['easy', 'medium', 'hard']).isRequired,
   }).isRequired,
 };
-
-// https://react-icons.github.io/react-icons/
