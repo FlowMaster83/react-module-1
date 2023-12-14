@@ -1,5 +1,8 @@
-import { Profile } from './Profile/Profile';
+import { RecipeList } from './RecipeList';
+import recipes from '../recipes.json';
 
 export const App = () => {
-  return <Profile />;
+  return <RecipeList items={recipes} />;
 };
+
+// https://react-icons.github.io/react-icons/

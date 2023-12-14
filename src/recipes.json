@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Audi 1",
+    "time": "20",
+    "servings": 6,
+    "calories": 210,
+    "image": "https://cf-cdn-v6-api.audi.at/images/2f4acaf7d7e82d5d5e54fba710393b717eae316d/1f33999c-e39d-414c-8ca9-c0b737e8774a/crop:SMART/resize:2048:1152/gt",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "name": "Audi 2",
+    "time": "20",
+    "servings": 6,
+    "calories": 210,
+    "image": "https://cf-cdn-v6-api.audi.at/images/455884b68e23d2cb1981ec0298d3cad88df65c6b/99cef986-88cd-43c3-89e0-d72faba2af35/crop:SMART/resize:2048:1152/sq8etron-copy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3,
+    "name": "Audi 3",
+    "time": "20",
+    "servings": 6,
+    "calories": 210,
+    "image": "https://cf-cdn-v6-api.audi.at/images/21e5b76aa9a4b11bca380b3af61323c041c72246/a17d2fcb-960d-4274-9588-b86d3634e277/crop:SMART/resize:2048:1152/q5-copy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 4,
+    "name": "Audi 4",
+    "time": "20",
+    "servings": 6,
+    "calories": 210,
+    "image": "https://cf-cdn-v6-api.audi.at/images/b59f40f5665a17e5fcfc739d5e9f5e4a20839020/6f044138-fed7-4108-9304-6965acb81d32/crop:SMART/resize:2048:1152/rs6-copy",
+    "difficulty": "hard"
+  }
+]
