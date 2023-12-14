@@ -1,6 +1,8 @@
 import user from '../../user.json';
 
-export const Profile = () => {
+export const Profile = ({
+  user: { username, tag, location, avatar, stats },
+}) => {
   return (
     <div className="profile">
       <div className="description">
@@ -38,4 +40,4 @@ export const Profile = () => {
   location={user.location}
   avatar={user.avatar}
   stats={user.stats}
-/>
+/>;
